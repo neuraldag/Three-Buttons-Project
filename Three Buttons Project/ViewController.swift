@@ -74,6 +74,7 @@ class UIButtonEX: UIButton {
         if tintAdjustmentMode == .dimmed {
             self.backgroundColor = .systemGray2
             self.titleLabel?.textColor = UIColor.systemGray3
+            self.imageView?.tintColor = UIColor.systemGray3
         } else if tintAdjustmentMode == .normal {
             configuration?.baseBackgroundColor = .systemBlue
             configuration?.baseForegroundColor = .white
